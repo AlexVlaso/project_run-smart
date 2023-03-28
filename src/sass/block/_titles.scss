@@ -3,4 +3,11 @@
   font-size: 30px;
   text-align: center;
   color: #0d0d0d;
+  &_white-left {
+    text-align: start;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 799px;
+  }
 }

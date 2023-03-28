@@ -15,6 +15,12 @@
       width: 223px;
     }
   }
+  .title {
+    &_white-left {
+      width: 700px;
+      font-size: 30px;
+    }
+  }
 }
 @media (max-width: 767px) {
   .container {
@@ -35,9 +41,12 @@
     }
   }
   .button {
-    width: 125px;
-    font-size: 11px;
+    &_nav {
+      width: 125px;
+      font-size: 11px;
+    }
     &_promo {
+      font-size: 11px;
       width: 180px;
     }
   }
@@ -66,6 +75,17 @@
     }
     &__desc {
       font-size: 12px;
+    }
+  }
+  .title {
+    &_white-left {
+      width: 560px;
+      font-size: 24px;
+    }
+  }
+  .consultation {
+    &__desc {
+      font-size: 18px;
     }
   }
 }
@@ -103,8 +123,18 @@
       font-size: 11px;
     }
   }
+  .button {
+    &_nav {
+      margin-top: 5px;
+    }
+  }
   .title {
     font-size: 20px;
+    &_white-left {
+      width: 100%;
+      font-size: 18px;
+      text-align: center;
+    }
   }
   .advantages {
     &__wrapper {
@@ -120,5 +150,16 @@
     &__desc {
       font-size: 14px;
     }
+  }
+  .consultation {
+    &__desc {
+      width: 100%;
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+  .form {
+    width: 280px;
+    margin: 36px auto;
   }
 }
