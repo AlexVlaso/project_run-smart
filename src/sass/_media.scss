@@ -88,6 +88,14 @@
       font-size: 18px;
     }
   }
+  .carousel {
+    &__inner {
+      width: 550px;
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
 @media (max-width: 575px) {
   .container {
@@ -161,5 +169,10 @@
   .form {
     width: 280px;
     margin: 36px auto;
+  }
+  .carousel {
+    &__inner {
+      width: 300px;
+    }
   }
 }
