@@ -1,0 +1,93 @@
+.catalog {
+  padding-bottom: 79px;
+  &__tabs {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+  }
+  &__tab {
+    margin: 0 5px;
+    width: 222px;
+    height: 52px;
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    border: 2px solid #d0d0d0;
+    transform: skewX(-25deg);
+    cursor: pointer;
+    &:not(&_active):hover {
+      box-shadow: 3px 3px 20px #c70101;
+    }
+    div {
+      transform: skewX(25deg);
+    }
+    &_active {
+      background: #c70101;
+      color: #fff;
+      border: none;
+    }
+  }
+  &__content {
+    margin-top: 57px;
+  }
+  &-item {
+    width: 303px;
+    min-height: 442px;
+    border: 2px solid #e8e8e8;
+    padding: 20px 20px;
+    &__img {
+      display: block;
+      margin: 0 auto;
+      height: 200px;
+      max-width: 100%;
+    }
+    &__title {
+      font-family: "MuseoModerno";
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      color: #0d0d0d;
+      margin-top: 15px;
+    }
+    &__desc {
+      font-weight: 300;
+      font-size: 14px;
+      text-align: center;
+      color: #0d0d0d;
+      margin-top: 15px;
+    }
+    &__link {
+      display: block;
+      font-weight: 500;
+      font-size: 14px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: #c70101;
+      margin-top: 10px;
+    }
+    hr {
+      background: #e8e8e8;
+      height: 4px;
+    }
+    &__footer {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__old-price {
+      font-weight: 300;
+      font-size: 14px;
+      text-decoration-line: line-through;
+      color: #555555;
+    }
+    &__price {
+      font-weight: 700;
+      font-size: 20px;
+      color: #050505;
+    }
+  }
+}
