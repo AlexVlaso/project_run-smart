@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 46px;
+    padding-left: 0;
   }
   &__tab {
     margin: 0 5px;
@@ -80,6 +81,9 @@
       text-decoration-line: underline;
       color: #c70101;
       margin-top: 10px;
+      &:hover {
+        color: #c70101;
+      }
     }
     hr {
       background: #e8e8e8;

@@ -21,6 +21,16 @@
       font-size: 30px;
     }
   }
+  .catalog {
+    &__content {
+      justify-content: center;
+    }
+    &-item {
+      &:nth-child(3n) {
+        margin-right: 16px;
+      }
+    }
+  }
 }
 @media (max-width: 767px) {
   .container {
@@ -93,6 +103,14 @@
       width: 550px;
       img {
         width: 100%;
+      }
+    }
+  }
+  .catalog {
+    &-item {
+      margin-right: 0;
+      &:nth-child(3n) {
+        margin-right: 0;
       }
     }
   }
@@ -173,6 +191,26 @@
   .carousel {
     &__inner {
       width: 300px;
+    }
+  }
+  .catalog {
+    &__tabs {
+      flex-direction: column;
+    }
+    &__tab {
+      margin-bottom: 10px;
+    }
+  }
+  .feedback {
+    &-item {
+      flex-direction: column;
+      align-items: center;
+      &__img {
+        margin-right: 0px;
+      }
+      &__subtitle {
+        margin-top: 15px;
+      }
     }
   }
 }
