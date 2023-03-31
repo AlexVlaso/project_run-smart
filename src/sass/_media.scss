@@ -201,4 +201,16 @@
       margin-bottom: 10px;
     }
   }
+  .feedback {
+    &-item {
+      flex-direction: column;
+      align-items: center;
+      &__img {
+        margin-right: 0px;
+      }
+      &__subtitle {
+        margin-top: 15px;
+      }
+    }
+  }
 }

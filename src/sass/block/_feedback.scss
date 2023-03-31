@@ -1,0 +1,25 @@
+.feedback {
+  padding-bottom: 48px;
+  &-item {
+    margin-top: 60px;
+    display: flex;
+    align-items: start;
+    &__img {
+      margin-right: 61px;
+    }
+    &__subtitle {
+      font-weight: 700;
+      font-size: 18px;
+    }
+    &__info {
+      font-weight: 500;
+      font-size: 14px;
+      color: #646464;
+    }
+    &__desc {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
