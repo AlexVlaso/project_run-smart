@@ -55,4 +55,11 @@ $(document).ready(function () {
       $(".overlay , #order").fadeIn("slow");
     });
   });
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 1600) {
+      $(".arrow-up").fadeIn();
+    } else {
+      $(".arrow-up").fadeOut();
+    }
+  });
 });
